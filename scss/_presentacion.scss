@@ -1,0 +1,86 @@
+
+.presentacion-style {
+    margin: 2rem;
+    text-align : justify;
+}
+
+.section-imperio {
+    display: flex;
+    justify-content: center;
+    background-color:#F8F9FA;
+    padding: 20px;
+}
+.titles{
+    margin: 1rem;
+    display: flex;
+    justify-content: left;
+    color: #e3af10;
+}
+
+* Cards */
+.card-style {
+    margin: 2rem;
+}
+.card-style-img {   
+    margin: 0.5rem;
+}
+
+/* Formulario - pedidos */
+
+.section-pedidos {
+    text-align: center;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    margin: 40px 0;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-pedidos h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="telefono"] {
+    background-color: white;
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size:  14px;
+}
+
+.form-row label { 
+    margin: 16px 0;
+}
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid,
+.form-row input[type="telefono"]:invalid {
+    color: red;
+    box-shadow: none;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="telefono"],
+.form-row textarea {
+    background-color: white;
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size:  14px;
+}
